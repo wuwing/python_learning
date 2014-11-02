@@ -21,7 +21,6 @@ def find_file(context,dir,files):
 		#Find out things about this file.
 		path = os.path.join(dir,file)
 		path = os.path.normcase(path)
-		print path
 		try:
 			ext = os.path.splitext(file)[1][1:]
 		except:
